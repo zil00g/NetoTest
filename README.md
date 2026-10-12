@@ -13,7 +13,7 @@ Aplicación web para practicar con examees tipo test.
 | **Internet** | Solo para cargar la página | No hace falta nunca |
 | **Tus tests** | Se guardan en tu navegador y los exportas a archivos de tu equipo | Igual: navegador + archivos de tu equipo |
 
-- **Online:** `https://TU-USUARIO.github.io/netotest/` (cambia la dirección cuando publiques el repositorio; ver [Publicar con GitHub Pages](#publicar-con-github-pages)).
+- **Online:** `https://zil00g.github.io/NetoTest/` (cambia la dirección cuando publiques el repositorio; ver [Publicar con GitHub Pages](#publicar-con-github-pages)).
 - **En local:** descarga [`index.html`](index.html) (botón *Download raw file* en GitHub), guárdalo donde quieras y ábrelo con Chrome, Edge, Firefox o Safari. Funciona sin conexión.
 
 En los dos casos, los tests se guardan automáticamente en el navegador que estés usando. Para llevarlos a otro equipo o a otro navegador, expórtalos a archivo (JSON o TXT) e impórtalos allí.
