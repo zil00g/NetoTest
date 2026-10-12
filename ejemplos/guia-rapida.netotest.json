@@ -1,0 +1,112 @@
+{
+  "formato": "NetoTest",
+  "version": 2,
+  "como_funciona": "Archivo de test de NetoTest (software libre, licencia MIT). Cada elemento de \"preguntas\" tiene un \"tipo\": opcion_multiple (\"opciones\" con \"texto\" y \"correcta\" true/false; puede haber varias correctas), verdadero_falso (\"respuesta_correcta\" true/false), completar (\"enunciado\" con ___ por cada hueco y \"huecos\": lista de respuestas válidas por hueco), unir (\"pares\" izquierda/derecha), columnas (\"columnas\" con sus \"fichas\"), ordenar (\"orden\": elementos en el orden correcto) y respuesta_corta (\"respuestas_validas\"). \"imagen\" es opcional y apunta a una clave de \"imagenes\" (base64). \"explicacion\" es opcional.",
+  "titulo": "Guía rápida de NetoTest",
+  "descripcion": "Una pregunta de cada tipo para conocer la aplicación",
+  "color": "#3651E0",
+  "preguntas": [
+    {
+      "id": "6034b117",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué modo usarías para practicar todas las preguntas con corrección al momento?",
+      "opciones": [
+        {
+          "texto": "Entrenar",
+          "correcta": true
+        },
+        {
+          "texto": "Simulador de examen",
+          "correcta": false
+        },
+        {
+          "texto": "Revisión",
+          "correcta": false
+        },
+        {
+          "texto": "Exportar a PDF",
+          "correcta": false
+        }
+      ],
+      "explicacion": "Entrenar corrige cada pregunta y muestra la explicación. El simulador solo corrige al entregar."
+    },
+    {
+      "id": "fv5m7mgz",
+      "tipo": "verdadero_falso",
+      "enunciado": "En el simulador de examen puedes marcar preguntas como dudosas y volver a ellas antes de entregar.",
+      "respuesta_correcta": true,
+      "explicacion": "Usa el botón Marcar o la tecla M."
+    },
+    {
+      "id": "9s6p0wmv",
+      "tipo": "completar",
+      "enunciado": "Para llevar tus tests a otro equipo, usa la opción Guardar como ___ en el menú de cada test.",
+      "huecos": [
+        [
+          "archivo"
+        ]
+      ]
+    },
+    {
+      "id": "tjd9c3xq",
+      "tipo": "unir",
+      "enunciado": "Une cada ajuste del simulador con lo que controla.",
+      "pares": [
+        {
+          "izquierda": "Preguntas",
+          "derecha": "Cuántas preguntas tendrá el examen"
+        },
+        {
+          "izquierda": "Tiempo disponible",
+          "derecha": "La cuenta atrás del examen"
+        },
+        {
+          "izquierda": "Nota de corte",
+          "derecha": "El porcentaje mínimo para aprobar"
+        }
+      ]
+    },
+    {
+      "id": "7unw3p4i",
+      "tipo": "columnas",
+      "enunciado": "Clasifica cada función según el modo en que aparece.",
+      "columnas": [
+        {
+          "nombre": "Entrenar",
+          "fichas": [
+            "Corrección al momento",
+            "Repetir las falladas"
+          ]
+        },
+        {
+          "nombre": "Simulador de examen",
+          "fichas": [
+            "Cuenta atrás",
+            "Nota de corte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smrqxy7y",
+      "tipo": "ordenar",
+      "enunciado": "Ordena los pasos para crear y practicar un test.",
+      "orden": [
+        "Crear un test nuevo",
+        "Añadir las preguntas",
+        "Guardar el test",
+        "Empezar a entrenar"
+      ]
+    },
+    {
+      "id": "d3z30w2n",
+      "tipo": "respuesta_corta",
+      "enunciado": "¿Qué tecla marca una pregunta como dudosa en el simulador? (una letra)",
+      "respuestas_validas": [
+        "m"
+      ],
+      "explicacion": "También puedes usar las teclas 1 a 9 para responder e Intro para avanzar."
+    }
+  ],
+  "imagenes": {}
+}

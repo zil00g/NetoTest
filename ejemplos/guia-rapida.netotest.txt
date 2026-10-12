@@ -1,0 +1,34 @@
+# Guía rápida de NetoTest
+
+? ¿Qué modo usarías para practicar todas las preguntas con corrección al momento?
++ Entrenar
+- Simulador de examen
+- Revisión
+- Exportar a PDF
+= Entrenar corrige cada pregunta y muestra la explicación. El simulador solo corrige al entregar.
+
+?vf En el simulador de examen puedes marcar preguntas como dudosas y volver a ellas antes de entregar.
++ V
+= Usa el botón Marcar o la tecla M.
+
+?c Para llevar tus tests a otro equipo, usa la opción Guardar como ___ en el menú de cada test.
++ archivo
+
+?u Une cada ajuste del simulador con lo que controla.
++ Preguntas => Cuántas preguntas tendrá el examen
++ Tiempo disponible => La cuenta atrás del examen
++ Nota de corte => El porcentaje mínimo para aprobar
+
+?k Clasifica cada función según el modo en que aparece.
++ Entrenar = Corrección al momento, Repetir las falladas
++ Simulador de examen = Cuenta atrás, Nota de corte
+
+?o Ordena los pasos para crear y practicar un test.
++ Crear un test nuevo
++ Añadir las preguntas
++ Guardar el test
++ Empezar a entrenar
+
+?s ¿Qué tecla marca una pregunta como dudosa en el simulador? (una letra)
++ m
+= También puedes usar las teclas 1 a 9 para responder e Intro para avanzar.
